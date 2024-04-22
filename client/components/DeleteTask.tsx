@@ -19,7 +19,7 @@ export function DeleteTask({ id }: Props) {
     mutation.mutate()
   }
 
-  return <button onClick={handleDelete}>Delete Task</button>
+  return <button onClick={handleDelete}>Task is Completed!</button>
 }
 
 export default DeleteTask
